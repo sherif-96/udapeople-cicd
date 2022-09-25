@@ -4,7 +4,7 @@ commands:
   install_awscli:
     description: INSTALL AWS CLI V2
     steps:
-      -run:
+      - run:
         name: Install AWS CLI V2
         command: |  
           curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
@@ -15,7 +15,7 @@ commands:
   install_ansible:
     description: INSTALL ANSIBLE V2
     steps:
-      -run:
+      - run:
         name: Install ANSIBLE V2
         command: |  
            sudo apt update
